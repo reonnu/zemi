@@ -26,46 +26,228 @@
   cursor : pointer; /* マウスカーソルの形状 */
    }
 
-.tohoku{ /* 東北 */
+
+.aomori{ /* 青森 */
   background-color : #8cffa9;
   cursor : pointer;
    }
 
-.kanto{ /* 関東 */
+.akita{ /* 秋田 */
   background-color : #8cffa9;
   cursor : pointer;
    }
 
-.hokuriku{ /* 北陸 */
+.iwate{ /* 岩手 */
   background-color :#8cffa9;
   cursor : pointer;
    }
 
-.kosinetu{ /* 甲信越 */
+.yamagata{ /* 山形 */
   background-color : #8cffa9;
   cursor : pointer;
    }
 
-.cyuubu{ /* 中部 */
+.miyagi{ /* 宮城 */
   background-color : #8cffa9;
   cursor : pointer;
    }
 
-.kinki{ /* 近畿 */
+.ishikawa{ /* 石川 */
   background-color : #8cffa9;
   cursor : pointer;
    }
-.tyugoku{ /* 中国 */
-  background-color : #8cffa9;
-  cursor : pointer;
-   }
-
-.sikoku{ /* 四国 */
+.niigata{ /* 新潟 */
   background-color : #8cffa9;
   cursor : pointer;
    }
 
-.kyusyu{ /* 九州、沖縄 */
+.hukushima{ /* 福島 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.toyama{ /* 富山 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.nagano{ /* 長野 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.gunma{ /* 群馬 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.gihu{ /* 岐阜 */
+  background-color :#8cffa9;
+  cursor : pointer;
+   }
+
+.tochigi{ /* 栃木 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.ibaraki{ /* 茨城 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.hukui{ /* 福井 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+.yamaguchi{ /* 山口 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.shimane{ /* 島根 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.tottori{ /* 鳥取 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.hyogo{ /* 兵庫 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.kyoto{ /* 京都 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.shiga{ /* 滋賀 */
+  background-color :#8cffa9;
+  cursor : pointer;
+   }
+
+.saitama{ /* 埼玉 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.chiba{ /* 千葉 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.nagasaki{ /* 長崎 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+.saga{ /* 佐賀 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.hukuoka{ /* 福岡 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.hiroshima{ /* 広島 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.okayama{ /* 岡山 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.yamanashi{ /* 山梨 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.tokyo{ /* 東京 */
+  background-color :#8cffa9;
+  cursor : pointer;
+   }
+
+.osaka{ /* 大阪 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.nara{ /* 奈良 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.mie{ /* 三重 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+.aichi{ /* 愛知 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.shizuoka{ /* 静岡 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.kanagawa{ /* 神奈川 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.kumamoto{ /* 熊本 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.oita{ /* 大分 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.miyazaki{ /* 宮崎 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.ehime{ /* 愛媛 */
+  background-color :#8cffa9;
+  cursor : pointer;
+   }
+
+.kagawa{ /* 香川 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.kouchi{ /* 高知 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.tokushima{ /* 徳島 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+.wakayama{ /* 和歌山 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.kagoshima{ /* 鹿児島 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.okinawa{ /* 沖縄 */
   background-color : #8cffa9;
   cursor : pointer;
    }
@@ -75,11 +257,351 @@
 .topBottom{ height : 2em; } /*外枠と地図の 上下余白 */
 
 .leftRight{ width : 2em; } /* 左右余白 */
+
+#data1:not(:target) {
+  display: none;
+  }
+#data1:target {
+  display: block;
+  }
+
+#data2:not(:target) {
+  display: none;
+  }
+#data2:target {
+  display: block;
+  }
+
+#data3:not(:target) {
+  display: none;
+  }
+#data3:target {
+  display: block;
+  }
+
+#data4:not(:target) {
+  display: none;
+  }
+#data4:target {
+  display: block;
+  }
+
+#data5:not(:target) {
+  display: none;
+  }
+#data5:target {
+  display: block;
+  }
+
+#data6:not(:target) {
+  display: none;
+  }
+#data6:target {
+  display: block;
+  }
+
+#data7:not(:target) {
+  display: none;
+  }
+#data7:target {
+  display: block;
+  }
+
+#data8:not(:target) {
+  display: none;
+  }
+#data8:target {
+  display: block;
+  }
+
+#data9:not(:target) {
+  display: none;
+  }
+#data9:target {
+  display: block;
+  }
+
+#data10:not(:target) {
+  display: none;
+  }
+#data10:target {
+  display: block;
+  }
+
+#data11:not(:target) {
+  display: none;
+  }
+#data11:target {
+  display: block;
+  }
+
+#data12:not(:target) {
+  display: none;
+  }
+#data12:target {
+  display: block;
+  }
+
+#data13:not(:target) {
+  display: none;
+  }
+#data13:target {
+  display: block;
+  }
+
+#data14:not(:target) {
+  display: none;
+  }
+#data14:target {
+  display: block;
+  }
+
+#data15:not(:target) {
+  display: none;
+  }
+#data15:target {
+  display: block;
+  }
+
+#data16:not(:target) {
+  display: none;
+  }
+#data16:target {
+  display: block;
+  }
+
+#data17:not(:target) {
+  display: none;
+  }
+#data17:target {
+  display: block;
+  }
+
+#data18:not(:target) {
+  display: none;
+  }
+#data18:target {
+  display: block;
+  }
+
+#data19:not(:target) {
+  display: none;
+  }
+#data19:target {
+  display: block;
+  }
+
+#data20:not(:target) {
+  display: none;
+  }
+#data20:target {
+  display: block;
+  }
+
+#data21:not(:target) {
+  display: none;
+  }
+#data21:target {
+  display: block;
+  }
+
+#data22:not(:target) {
+  display: none;
+  }
+#data22:target {
+  display: block;
+  }
+
+#data23:not(:target) {
+  display: none;
+  }
+#data23:target {
+  display: block;
+  }
+
+#data24:not(:target) {
+  display: none;
+  }
+#data24:target {
+  display: block;
+  }
+
+#data25:not(:target) {
+  display: none;
+  }
+#data25:target {
+  display: block;
+  }
+
+#data26:not(:target) {
+  display: none;
+  }
+#data26:target {
+  display: block;
+  }
+
+#data27:not(:target) {
+  display: none;
+  }
+#data27:target {
+  display: block;
+  }
+
+#data28:not(:target) {
+  display: none;
+  }
+#data28:target {
+  display: block;
+  }
+
+#data29:not(:target) {
+  display: none;
+  }
+#data29:target {
+  display: block;
+  }
+
+#data30:not(:target) {
+  display: none;
+  }
+#data30:target {
+  display: block;
+  }
+
+#data31:not(:target) {
+  display: none;
+  }
+#data31:target {
+  display: block;
+  }
+
+#data32:not(:target) {
+  display: none;
+  }
+#data32:target {
+  display: block;
+  }
+
+#data33:not(:target) {
+  display: none;
+  }
+#data33:target {
+  display: block;
+  }
+
+#data34:not(:target) {
+  display: none;
+  }
+#data34:target {
+  display: block;
+  }
+
+#data35:not(:target) {
+  display: none;
+  }
+#data35:target {
+  display: block;
+  }
+
+#data36:not(:target) {
+  display: none;
+  }
+#data36:target {
+  display: block;
+  }
+
+#data37:not(:target) {
+  display: none;
+  }
+#data37:target {
+  display: block;
+  }
+
+#data38:not(:target) {
+  display: none;
+  }
+#data38:target {
+  display: block;
+  }
+
+#data39:not(:target) {
+  display: none;
+  }
+#data39:target {
+  display: block;
+  }
+
+#data40:not(:target) {
+  display: none;
+  }
+#data40:target {
+  display: block;
+  }
+
+#data41:not(:target) {
+  display: none;
+  }
+#data41:target {
+  display: block;
+  }
+
+#data42:not(:target) {
+  display: none;
+  }
+#data42:target {
+  display: block;
+  }
+
+#data43:not(:target) {
+  display: none;
+  }
+#data43:target {
+  display: block;
+  }
+
+#data44:not(:target) {
+  display: none;
+  }
+#data44:target {
+  display: block;
+  }
+
+#data45:not(:target) {
+  display: none;
+  }
+#data45:target {
+  display: block;
+  }
+
+#data46:not(:target) {
+  display: none;
+  }
+#data46:target {
+  display: block;
+  }
+
+#data47:not(:target) {
+  display: none;
+  }
+#data47:target {
+  display: block;
+  }
+
+  a {
+    color: green;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: red;
+    font-weight: bold;
+  }
 }
 
 /* pc */
 @media screen and (min-width: 961px) and (max-width: 1280px) {
-  #mapTbl{
+  #mapTbl{   
+
   border-collapse:collapse; /* 隣接する枠線を重ねる */
   text-align : center; /* 文字水平位置 */
   font-size : 15px; /* 文字サイズ */
@@ -103,46 +625,223 @@
   cursor : pointer; /* マウスカーソルの形状 */
    }
 
-.tohoku{ /* 東北 */
+
+.aomori{ /* 青森 */
   background-color : #8cffa9;
   cursor : pointer;
    }
 
-.kanto{ /* 関東 */
+.akita{ /* 秋田 */
   background-color : #8cffa9;
   cursor : pointer;
    }
 
-.hokuriku{ /* 北陸 */
+.iwate{ /* 岩手 */
   background-color :#8cffa9;
   cursor : pointer;
    }
 
-.kosinetu{ /* 甲信越 */
+.yamagata{ /* 山形 */
   background-color : #8cffa9;
   cursor : pointer;
    }
 
-.cyuubu{ /* 中部 */
+.miyagi{ /* 宮城 */
   background-color : #8cffa9;
   cursor : pointer;
    }
 
-.kinki{ /* 近畿 */
+.ishikawa{ /* 石川 */
   background-color : #8cffa9;
   cursor : pointer;
    }
-.tyugoku{ /* 中国 */
-  background-color : #8cffa9;
-  cursor : pointer;
-   }
-
-.sikoku{ /* 四国 */
+.niigata{ /* 新潟 */
   background-color : #8cffa9;
   cursor : pointer;
    }
 
-.kyusyu{ /* 九州、沖縄 */
+.hukushima{ /* 福島 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.toyama{ /* 富山 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.nagano{ /* 長野 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.gunma{ /* 群馬 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.gihu{ /* 岐阜 */
+  background-color :#8cffa9;
+  cursor : pointer;
+   }
+
+.tochigi{ /* 栃木 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.ibaraki{ /* 茨城 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.hukui{ /* 福井 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+.yamaguchi{ /* 山口 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.shimane{ /* 島根 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.tottori{ /* 鳥取 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.hyogo{ /* 兵庫 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.kyoto{ /* 京都 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.shiga{ /* 滋賀 */
+  background-color :#8cffa9;
+  cursor : pointer;
+   }
+
+.saitama{ /* 埼玉 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.chiba{ /* 千葉 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.nagasaki{ /* 長崎 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+.saga{ /* 佐賀 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.hukuoka{ /* 福岡 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.hiroshima{ /* 広島 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.okayama{ /* 岡山 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.yamanashi{ /* 山梨 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.tokyo{ /* 東京 */
+  background-color :#8cffa9;
+  cursor : pointer;
+   }
+
+.osaka{ /* 大阪 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.nara{ /* 奈良 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.mie{ /* 三重 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+.aichi{ /* 愛知 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.shizuoka{ /* 静岡 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.kanagawa{ /* 神奈川 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.kumamoto{ /* 熊本 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.miyazaki{ /* 宮崎 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.ehime{ /* 愛媛 */
+  background-color :#8cffa9;
+  cursor : pointer;
+   }
+
+.kagawa{ /* 香川 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.kouchi{ /* 高知 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.tokushima{ /* 徳島 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+.wakayama{ /* 和歌山 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.kagoshima{ /* 鹿児島 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.okinawa{ /* 沖縄 */
   background-color : #8cffa9;
   cursor : pointer;
    }
@@ -152,6 +851,349 @@
 .topBottom{ height : 2em; } /*外枠と地図の 上下余白 */
 
 .leftRight{ width : 2em; } /* 左右余白 */
+
+#data1:not(:target) {
+  display: none;
+  }
+
+#data1:not(:target) {
+  display: none;
+  }
+#data1:target {
+  display: block;
+  }
+
+#data2:not(:target) {
+  display: none;
+  }
+#data2:target {
+  display: block;
+  }
+
+#data3:not(:target) {
+  display: none;
+  }
+#data3:target {
+  display: block;
+  }
+
+#data4:not(:target) {
+  display: none;
+  }
+#data4:target {
+  display: block;
+  }
+
+#data5:not(:target) {
+  display: none;
+  }
+#data5:target {
+  display: block;
+  }
+
+#data6:not(:target) {
+  display: none;
+  }
+#data6:target {
+  display: block;
+  }
+
+#data7:not(:target) {
+  display: none;
+  }
+#data7:target {
+  display: block;
+  }
+
+#data8:not(:target) {
+  display: none;
+  }
+#data8:target {
+  display: block;
+  }
+
+#data9:not(:target) {
+  display: none;
+  }
+#data9:target {
+  display: block;
+  }
+
+#data10:not(:target) {
+  display: none;
+  }
+#data10:target {
+  display: block;
+  }
+
+#data11:not(:target) {
+  display: none;
+  }
+#data11:target {
+  display: block;
+  }
+
+#data12:not(:target) {
+  display: none;
+  }
+#data12:target {
+  display: block;
+  }
+
+#data13:not(:target) {
+  display: none;
+  }
+#data13:target {
+  display: block;
+  }
+
+#data14:not(:target) {
+  display: none;
+  }
+#data14:target {
+  display: block;
+  }
+
+#data15:not(:target) {
+  display: none;
+  }
+#data15:target {
+  display: block;
+  }
+
+#data16:not(:target) {
+  display: none;
+  }
+#data16:target {
+  display: block;
+  }
+
+#data17:not(:target) {
+  display: none;
+  }
+#data17:target {
+  display: block;
+  }
+
+#data18:not(:target) {
+  display: none;
+  }
+#data18:target {
+  display: block;
+  }
+
+#data19:not(:target) {
+  display: none;
+  }
+#data19:target {
+  display: block;
+  }
+
+#data20:not(:target) {
+  display: none;
+  }
+#data20:target {
+  display: block;
+  }
+
+#data21:not(:target) {
+  display: none;
+  }
+#data21:target {
+  display: block;
+  }
+
+#data22:not(:target) {
+  display: none;
+  }
+#data22:target {
+  display: block;
+  }
+
+#data23:not(:target) {
+  display: none;
+  }
+#data23:target {
+  display: block;
+  }
+
+#data24:not(:target) {
+  display: none;
+  }
+#data24:target {
+  display: block;
+  }
+
+#data25:not(:target) {
+  display: none;
+  }
+#data25:target {
+  display: block;
+  }
+
+#data26:not(:target) {
+  display: none;
+  }
+#data26:target {
+  display: block;
+  }
+
+#data27:not(:target) {
+  display: none;
+  }
+#data27:target {
+  display: block;
+  }
+
+#data28:not(:target) {
+  display: none;
+  }
+#data28:target {
+  display: block;
+  }
+
+#data29:not(:target) {
+  display: none;
+  }
+#data29:target {
+  display: block;
+  }
+
+#data30:not(:target) {
+  display: none;
+  }
+#data30:target {
+  display: block;
+  }
+
+#data31:not(:target) {
+  display: none;
+  }
+#data31:target {
+  display: block;
+  }
+
+#data32:not(:target) {
+  display: none;
+  }
+#data32:target {
+  display: block;
+  }
+
+#data33:not(:target) {
+  display: none;
+  }
+#data33:target {
+  display: block;
+  }
+
+#data34:not(:target) {
+  display: none;
+  }
+#data34:target {
+  display: block;
+  }
+
+#data35:not(:target) {
+  display: none;
+  }
+#data35:target {
+  display: block;
+  }
+
+#data36:not(:target) {
+  display: none;
+  }
+#data36:target {
+  display: block;
+  }
+
+#data37:not(:target) {
+  display: none;
+  }
+#data37:target {
+  display: block;
+  }
+
+#data38:not(:target) {
+  display: none;
+  }
+#data38:target {
+  display: block;
+  }
+
+#data39:not(:target) {
+  display: none;
+  }
+#data39:target {
+  display: block;
+  }
+
+#data40:not(:target) {
+  display: none;
+  }
+#data40:target {
+  display: block;
+  }
+
+#data41:not(:target) {
+  display: none;
+  }
+#data41:target {
+  display: block;
+  }
+
+#data42:not(:target) {
+  display: none;
+  }
+#data42:target {
+  display: block;
+  }
+
+#data43:not(:target) {
+  display: none;
+  }
+#data43:target {
+  display: block;
+  }
+
+#data44:not(:target) {
+  display: none;
+  }
+#data44:target {
+  display: block;
+  }
+
+#data45:not(:target) {
+  display: none;
+  }
+#data45:target {
+  display: block;
+  }
+
+#data46:not(:target) {
+  display: none;
+  }
+#data46:target {
+  display: block;
+  }
+
+#data47:not(:target) {
+  display: none;
+  }
+#data47:target {
+  display: block;
+  }
+
+  a {
+    color: green;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: red;
+    font-weight: bold;
+  }
 }
 
 /* bigpc */
@@ -180,46 +1222,222 @@
   cursor : pointer; /* マウスカーソルの形状 */
    }
 
-.tohoku{ /* 東北 */
+.aomori{ /* 青森 */
   background-color : #8cffa9;
   cursor : pointer;
    }
 
-.kanto{ /* 関東 */
+.akita{ /* 秋田 */
   background-color : #8cffa9;
   cursor : pointer;
    }
 
-.hokuriku{ /* 北陸 */
+.iwate{ /* 岩手 */
   background-color :#8cffa9;
   cursor : pointer;
    }
 
-.kosinetu{ /* 甲信越 */
+.yamagata{ /* 山形 */
   background-color : #8cffa9;
   cursor : pointer;
    }
 
-.cyuubu{ /* 中部 */
+.miyagi{ /* 宮城 */
   background-color : #8cffa9;
   cursor : pointer;
    }
 
-.kinki{ /* 近畿 */
+.ishikawa{ /* 石川 */
   background-color : #8cffa9;
   cursor : pointer;
    }
-.tyugoku{ /* 中国 */
-  background-color : #8cffa9;
-  cursor : pointer;
-   }
-
-.sikoku{ /* 四国 */
+.niigata{ /* 新潟 */
   background-color : #8cffa9;
   cursor : pointer;
    }
 
-.kyusyu{ /* 九州、沖縄 */
+.hukushima{ /* 福島 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.toyama{ /* 富山 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.nagano{ /* 長野 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.gunma{ /* 群馬 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.gihu{ /* 岐阜 */
+  background-color :#8cffa9;
+  cursor : pointer;
+   }
+
+.tochigi{ /* 栃木 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.ibaraki{ /* 茨城 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.hukui{ /* 福井 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+.yamaguchi{ /* 山口 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.shimane{ /* 島根 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.tottori{ /* 鳥取 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.hyogo{ /* 兵庫 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.kyoto{ /* 京都 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.shiga{ /* 滋賀 */
+  background-color :#8cffa9;
+  cursor : pointer;
+   }
+
+.saitama{ /* 埼玉 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.chiba{ /* 千葉 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.nagasaki{ /* 長崎 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+.saga{ /* 佐賀 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.hukuoka{ /* 福岡 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.hiroshima{ /* 広島 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.okayama{ /* 岡山 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.yamanashi{ /* 山梨 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.tokyo{ /* 東京 */
+  background-color :#8cffa9;
+  cursor : pointer;
+   }
+
+.osaka{ /* 大阪 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.nara{ /* 奈良 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.mie{ /* 三重 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+.aichi{ /* 愛知 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.shizuoka{ /* 静岡 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.kanagawa{ /* 神奈川 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.kumamoto{ /* 熊本 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.miyazaki{ /* 宮崎 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.ehime{ /* 愛媛 */
+  background-color :#8cffa9;
+  cursor : pointer;
+   }
+
+.kagawa{ /* 香川 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.kouchi{ /* 高知 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.tokushima{ /* 徳島 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+.wakayama{ /* 和歌山 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.kagoshima{ /* 鹿児島 */
+  background-color : #8cffa9;
+  cursor : pointer;
+   }
+
+.okinawa{ /* 沖縄 */
   background-color : #8cffa9;
   cursor : pointer;
    }
@@ -229,4 +1447,343 @@
 .topBottom{ height : 2em; } /*外枠と地図の 上下余白 */
 
 .leftRight{ width : 2em; } /* 左右余白 */
+
+#data1:not(:target) {
+  display: none;
+  }
+#data1:target {
+  display: block;
+  }
+
+#data2:not(:target) {
+  display: none;
+  }
+#data2:target {
+  display: block;
+  }
+
+#data3:not(:target) {
+  display: none;
+  }
+#data3:target {
+  display: block;
+  }
+
+#data4:not(:target) {
+  display: none;
+  }
+#data4:target {
+  display: block;
+  }
+
+#data5:not(:target) {
+  display: none;
+  }
+#data5:target {
+  display: block;
+  }
+
+#data6:not(:target) {
+  display: none;
+  }
+#data6:target {
+  display: block;
+  }
+
+#data7:not(:target) {
+  display: none;
+  }
+#data7:target {
+  display: block;
+  }
+
+#data8:not(:target) {
+  display: none;
+  }
+#data8:target {
+  display: block;
+  }
+
+#data9:not(:target) {
+  display: none;
+  }
+#data9:target {
+  display: block;
+  }
+
+#data10:not(:target) {
+  display: none;
+  }
+#data10:target {
+  display: block;
+  }
+
+#data11:not(:target) {
+  display: none;
+  }
+#data11:target {
+  display: block;
+  }
+
+#data12:not(:target) {
+  display: none;
+  }
+#data12:target {
+  display: block;
+  }
+
+#data13:not(:target) {
+  display: none;
+  }
+#data13:target {
+  display: block;
+  }
+
+#data14:not(:target) {
+  display: none;
+  }
+#data14:target {
+  display: block;
+  }
+
+#data15:not(:target) {
+  display: none;
+  }
+#data15:target {
+  display: block;
+  }
+
+#data16:not(:target) {
+  display: none;
+  }
+#data16:target {
+  display: block;
+  }
+
+#data17:not(:target) {
+  display: none;
+  }
+#data17:target {
+  display: block;
+  }
+
+#data18:not(:target) {
+  display: none;
+  }
+#data18:target {
+  display: block;
+  }
+
+#data19:not(:target) {
+  display: none;
+  }
+#data19:target {
+  display: block;
+  }
+
+#data20:not(:target) {
+  display: none;
+  }
+#data20:target {
+  display: block;
+  }
+
+#data21:not(:target) {
+  display: none;
+  }
+#data21:target {
+  display: block;
+  }
+
+#data22:not(:target) {
+  display: none;
+  }
+#data22:target {
+  display: block;
+  }
+
+#data23:not(:target) {
+  display: none;
+  }
+#data23:target {
+  display: block;
+  }
+
+#data24:not(:target) {
+  display: none;
+  }
+#data24:target {
+  display: block;
+  }
+
+#data25:not(:target) {
+  display: none;
+  }
+#data25:target {
+  display: block;
+  }
+
+#data26:not(:target) {
+  display: none;
+  }
+#data26:target {
+  display: block;
+  }
+
+#data27:not(:target) {
+  display: none;
+  }
+#data27:target {
+  display: block;
+  }
+
+#data28:not(:target) {
+  display: none;
+  }
+#data28:target {
+  display: block;
+  }
+
+#data29:not(:target) {
+  display: none;
+  }
+#data29:target {
+  display: block;
+  }
+
+#data30:not(:target) {
+  display: none;
+  }
+#data30:target {
+  display: block;
+  }
+
+#data31:not(:target) {
+  display: none;
+  }
+#data31:target {
+  display: block;
+  }
+
+#data32:not(:target) {
+  display: none;
+  }
+#data32:target {
+  display: block;
+  }
+
+#data33:not(:target) {
+  display: none;
+  }
+#data33:target {
+  display: block;
+  }
+
+#data34:not(:target) {
+  display: none;
+  }
+#data34:target {
+  display: block;
+  }
+
+#data35:not(:target) {
+  display: none;
+  }
+#data35:target {
+  display: block;
+  }
+
+#data36:not(:target) {
+  display: none;
+  }
+#data36:target {
+  display: block;
+  }
+
+#data37:not(:target) {
+  display: none;
+  }
+#data37:target {
+  display: block;
+  }
+
+#data38:not(:target) {
+  display: none;
+  }
+#data38:target {
+  display: block;
+  }
+
+#data39:not(:target) {
+  display: none;
+  }
+#data39:target {
+  display: block;
+  }
+
+#data40:not(:target) {
+  display: none;
+  }
+#data40:target {
+  display: block;
+  }
+
+#data41:not(:target) {
+  display: none;
+  }
+#data41:target {
+  display: block;
+  }
+
+#data42:not(:target) {
+  display: none;
+  }
+#data42:target {
+  display: block;
+  }
+
+#data43:not(:target) {
+  display: none;
+  }
+#data43:target {
+  display: block;
+  }
+
+#data44:not(:target) {
+  display: none;
+  }
+#data44:target {
+  display: block;
+  }
+
+#data45:not(:target) {
+  display: none;
+  }
+#data45:target {
+  display: block;
+  }
+
+#data46:not(:target) {
+  display: none;
+  }
+#data46:target {
+  display: block;
+  }
+
+#data47:not(:target) {
+  display: none;
+  }
+#data47:target {
+  display: block;
+  }
+
+  a {
+    color: green;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: red;
+    font-weight: bold;
+  }
 }
