@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+<link rel="stylesheet" href="../japioneer.css">
+<link rel="stylesheet" href="../jp_map.css">
+
+  <title>JaPioneer</title>
+  			<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  			<script type="text/javascript" src="jp_map.js"></script>
+ </head>           
+
+<body id="body2">	
+	<table id="mapTbl">
+ <tr>
+   <td colspan="2" rowspan="34" class="leftRight"></td>
+   <td colspan="31" class="topBottom"></td>
+   <td class="leftRight"></td>
+  </tr>
+  <tr>
+   <td colspan="21" rowspan="6"></td>
+   <td rowspan="8" colspan="2"></td>
+   <td class="hokka" colspan="8"  rowspan="2" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：" p=所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：>北海道</td>
+   <td height="24" rowspan="3"></td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+   <td class="kaikyo" colspan="5"></td>
+   <td class="kaikyo" colspan="3" style="width : 2em;"></td>
+  </tr>
+  <tr>
+   <td class="tohoku" colspan="5"
+     style="height : 2.5em;" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">青森</td>
+   <td rowspan="30" colspan="3"></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td class="tohoku" rowspan="2" colspan="2" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">秋<br>田</td>
+   <td class="tohoku" rowspan="2" colspan="3" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">岩<br>手</td>
+   <td></td>
+  </tr>
+  <tr>
+   <td></td>
+  </tr>
+  <tr>
+   <td colspan="16" rowspan="6"></td>
+   <td></td>
+   <td colspan="4" rowspan="2"></td>
+   <td class="tohoku" rowspan="2" colspan="2" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">山<br>形</td>
+   <td class="tohoku" rowspan="2" colspan="3" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">宮<br>城</td>
+   <td></td>
+  </tr>
+  <tr>
+   <td class="hokuriku" rowspan="6" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">石<br>川</td>
+   <td></td>
+  </tr>
+  <tr>
+   <td colspan="2" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P："></td>
+   <td class="kosinetu" colspan="5" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：" rowspan="3">新潟</td>
+   <td class="tohoku" rowspan="4" colspan="4" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">福島</td>
+   <td rowspan="3"></td>
+  </tr>
+  <tr>
+   <td class="hokuriku" colspan="2" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：" rowspan="3">富山</td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+   <td class="kosinetu" rowspan="8" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">長野</td>
+   <td class="kanto" colspan="4" rowspan="4" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">群馬</td>
+   <td></td>
+  </tr>
+  <tr>
+   <td colspan="7"></td>
+   <td colspan="8"></td>
+   <td></td>
+   <td class="cyuubu" colspan="2" rowspan="7" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">岐<br>阜</td>
+   <td class="kanto" colspan="2" rowspan="3" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">栃木</td>
+   <td class="kanto" colspan="2" rowspan="4" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">茨<br>城</td>
+   <td></td>
+  </tr>
+  <tr>
+   <td colspan="7" rowspan="3"></td>
+   <td colspan="8"></td>
+   <td class="hokuriku" colspan="2" rowspan="2" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">福井</td>
+   <td></td>
+  </tr>
+  <tr>
+   <td class="tyugoku" rowspan="5" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">山<br>口</td>
+   <td class="tyugoku" rowspan="4" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">島根</td>
+   <td class="tyugoku" rowspan="4" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">鳥取</td>
+   <td class="kinki" colspan="3" rowspan="6" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">兵庫</td>
+   <td colspan="2"></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td class="kinki" colspan="3" rowspan="4" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">京都</td>
+   <td class="kinki" rowspan="4" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">滋<br>賀</td>
+   <td class="kanto" colspan="6" rowspan="3" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">埼玉</td>
+   <td></td>
+  </tr>
+  <tr>
+   <td colspan="7" rowspan="2"></td>
+   <td class="kanto" colspan="2" rowspan="5" 
+     style="padding:0px 4px;" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">千<br>葉</td>
+   <td rowspan="2"></td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+   <td class="kyusyu" rowspan="4" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">長<br>崎</td>
+   <td class="kyusyu" rowspan="3" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">佐<br>賀</td>
+   <td class="kyusyu" rowspan="2" colspan="3" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">福岡</td>
+   <td></td>
+   <td></td>
+   <td class="tyugoku" rowspan="2" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">広島</td>
+   <td class="tyugoku" rowspan="2" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">岡山</td>
+   <td class="kosinetu" colspan="3" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">山梨</td>
+   <td class="kanto" colspan="3" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">東京</td>
+   <td></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+   <td class="kinki" colspan="2" rowspan="4" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">大<br>阪</td>
+   <td class="kinki" rowspan="4" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">奈<br>良</td>
+   <td class="kinki" rowspan="5" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">三<br>重</td>
+   <td class="cyuubu" colspan="2" rowspan="2" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">愛知</td>
+   <td class="cyuubu" colspan="3" rowspan="3" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">静岡</td>
+   <td class="kanto" colspan="3" rowspan="2" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">神奈川</td>
+   <td rowspan="2"></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td rowspan="2"></td>
+   <td class="kyusyu" rowspan="6" style="padding:0px 4px;" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">熊<br>本</td>
+   <td class="kyusyu" rowspan="2" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">大分</td>
+   <td colspan="8" rowspan="2"></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td></td>
+   <td colspan="2" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P："></td>
+   <td colspan="2"></td>
+   <td></td>
+   <td></td>
+   <td colspan="2"></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td colspan="3" rowspan="9"></td>
+   <td class="kyusyu" rowspan="4" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">宮崎</td>
+   <td colspan="2" rowspan="3"></td>
+   <td class="sikoku" colspan="2" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">愛媛</td>
+   <td class="sikoku" colspan="3" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">香川</td>
+   <td rowspan="3"></td>
+   <td rowspan="10" colspan="11"></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td class="sikoku" colspan="2" rowspan="2" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">高知</td>
+   <td class="sikoku" colspan="3" rowspan="2" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">徳島</td>
+   <td class="kinki" colspan="3" rowspan="4" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">和歌山</td>
+   <td></td>
+  </tr>
+  <tr>
+   <td rowspan="8"></td>
+   <td rowspan="9"></td>
+  </tr>
+<tr>
+   <td colspan="8" rowspan="6"></td>
+  </tr>
+  <tr>
+   <td class="kyusyu" colspan="2" rowspan="4" style="height : 2.5em;" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">鹿児島</td>
+  </tr>
+  <tr>
+   <td colspan="3" rowspan="5"></td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+   <td colspan="2"></td>
+  </tr>
+  <tr>
+   <td class="kyusyu" colspan="2" title="所持金：&#13;&#10;農業P：&#13;&#10;漁業P：&#13;&#10;工業P：">沖縄</td>
+   <td></td>
+   <td colspan="2"></td>
+   <td colspan="6"></td>
+   <td></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td colspan="28" class="topBottom"></td>
+  </tr>
+</table>
+</body>
+</html>
+<div id="p1"></div>
+<div id="p2"></div>
+<div id="map-container"></div>
+<p>いらなくなった！</p>
+
+
+<p id="btn3">
+<a href="3-1_junban.html" class="square_btn2">次へ</a>
+</p>
+</body>
+
+</html>
+
